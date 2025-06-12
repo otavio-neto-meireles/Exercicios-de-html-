@@ -1,40 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ativiade-htm</title>
-    <style>
-    body{
-        background-color: blue;
-        font-family: 'Courier New', Courier, monospace;
-        text-align: center;
-    }
-    .box-nav{
-        background-color: aqua;
-        padding: 10px;
-        
-    }
-    </style>
-</head>
-<body><div class="box-nav">
-    <h1>Bem vindo ao sua dieta inteligente 
-        aqui voce tera um suporte de uma I.A junto a meu conhecimento 
-        para faciliatar seu dia/dia </h1> 
-    <h2>nutricista Otávio meireles</h2>
-</div>
-<div>
-    <div class="box-nav"></div>
-    <p>Faça seu login aqui </p>
-<form action="/submit" method="post">
-  <label for="email">Digite seu Gmail:</label>
-  
-  <input type="email" id="email" name="email" placeholder="exemplo@gmail.com" required pattern=".+@gmail\.com">
-<br>
-<br>  
-  <button type="submit">Enviar</button>
-</form>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutri I.A</title>
+  <style>
+      body{
+         background-color: rgba(75, 171, 250, 0.678);
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      }
+      .box-nav{
+      background-color: rgb(24, 119, 45);
+      padding: 5px;
+      border-radius: 20px;
 
-</div>
+      }
+.box{
+  background: rgba(0, 0, 0,0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+transform: translate(-50%,-40%);
+padding: 15px;
+color: white;
+}
+input{
+  background-color: aquamarine;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 50%;
+
+}
+  button{ padding: 10px;
+  border: none;
+  outline:none;
+  width: 50%;
+  background: slateblue;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+
+    button:hover{
+      background-color: cornflowerblue;
+
+    }
+  </style>
+</head>
 <body>
-    
+  <div class="box-nav">
+    <h1>Bem-vindo à Sua Dieta Inteligente 🍉💡</h1>
+    <p>
+       Aqui, você conta com a união da Inteligência Artificial e da expertise
+      nutricional para transformar sua rotina de forma prática, leve e eficaz.
+    </p>  
+    <p>
+        Nossa missão é tornar sua jornada mais simples, personalizada e sustentável —
+      todos os dias.
+    </p>
+    <h2>Nutri. Otavio meireles </h2>
+  </div>
+ <div class="box">
+  <p>Questão</p>
+  <input type="text" placeholder="digite um valor">
+  <br>
+  <br>
+  <button>Enviar</button>
+ </div>
+  
+</body>
+</html>
